@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var base = "<div class='lecture-entry {DAY} rel-start-{START_TIME}'><div style='background-color: {COLOR}' class='lecture-entry-header semibold'>{TIME}</div><div class='lecture-entry-body block-{LENGTH}'>{NAME}<br />{LOC}</div><div class='lecture-entry-footer'></div></div>"
+  var base = "<div class='lecture-entry {DAY} start-{START_TIME}'><div style='background-color: {COLOR}' class='lecture-entry-header semibold'>{TIME}</div><div class='lecture-entry-body block-{LENGTH}'>{NAME}<br />{LOC}</div><div class='lecture-entry-footer'></div></div>"
 
   function composeHTML(info) {
     name = info["name"];
@@ -12,7 +12,6 @@ $(document).ready(function() {
     color = info["color"];
 
     var length = String(parseInt(end) - parseInt(start));
-
     // You can chain together the calls if you want!
     result = base.replace("{DAY}", day).replace("{START_TIME}", start);
     result = result.replace("{LENGTH}", length).replace("{LOC}", loc);
@@ -24,9 +23,8 @@ $(document).ready(function() {
 
   var classes = schedule.map(composeHTML);
 
-  console.log(classes);
-
   classes.forEach(function(item) {
     $(item).insertAfter(".anchor");
   });
+
 });
