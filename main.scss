@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Calibre-Regular';
+  src: url('fonts/Calibre-Regular.woff');
+}
+
+@font-face {
+  font-family: 'Calibre-Semibold';
+  src: url('fonts/Calibre-Semibold.woff');
+}
+
+@font-face {
+  font-family: 'Calibre-Bold';
+  src: url('fonts/Calibre-Bold.woff');
+}
+
+$primary-blue: #4279FF;
+$primary-red: #FF8080;
+$primary-gray: #EEEEEE;
+$primary-yellow: #FFDE80;
+$font-stack: 'Calibre-Regular', sans-serif;
+$font-semibold: 'Calibre-Semibold', sans-serif;
+$font-bold: 'Calibre-Bold', sans-serif;
+
+@import 'reset';
+@import 'calendar';
+@import 'entries';
+
+html {
+  font-family: $font-stack;
+}
+
+.container {
+  margin: 100px 150px 100px 150px;
+}
+
+.outline-blue {
+  border: 2px solid $primary-blue !important;
+  border-radius: 0.25rem;
+}
+
+.color-blue {
+  color: $primary-blue;
+}
+
+.color-red {
+  color: $primary-red;
+}
+
+.semibold {
+  font-family: $font-semibold;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.headerfix {
+  overflow: visible;
+}
+
+.rm-margin-bottom {
+  margin-bottom: 0px !important;
+}
+
+.absolute-center-wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
