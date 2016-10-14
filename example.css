@@ -28,8 +28,8 @@ html {
   text-align: center; }
 
 .cal-header-row-entry {
-  position: _TODO_;
-  width: _TODO_;
+  position: absolute;
+  width: 20%;
   top: 0px;
   height: 25px;
   background-color: #EEEEEE;
@@ -37,20 +37,20 @@ html {
   padding-bottom: 0.25rem; }
 
 .cal-header-row .cal-header-row-entry:nth-child(1) {
-  left: _TODO_; }
+  left: 0%; }
 .cal-header-row .cal-header-row-entry:nth-child(2) {
-  left: _TODO_; }
+  left: 20%; }
 .cal-header-row .cal-header-row-entry:nth-child(3) {
-  left: _TODO_; }
+  left: 40%; }
 .cal-header-row .cal-header-row-entry:nth-child(4) {
-  left: _TODO_; }
+  left: 60%; }
 .cal-header-row .cal-header-row-entry:nth-child(5) {
-  left: _TODO_; }
+  left: 80%; }
 
 .cal-dotw-column {
   display: inline-block;
   height: 100%;
-  width: calc(20% - _TODO_);
+  width: calc(20% - 1.2px);
   border-bottom: 1px solid #EEEEEE;
   border-right: 1px solid #EEEEEE; }
 
@@ -110,43 +110,43 @@ html {
   left: 81%; }
 
 .start-650 {
-}
+  top: calc(30px + 0 * 60px); }
 
 .start-700 {
-}
+  top: calc(30px + 1 * 60px); }
 
 .start-750 {
-}
+  top: calc(30px + 2 * 60px); }
 
 .start-800 {
-}
+  top: calc(30px + 3 * 60px); }
 
 .start-850 {
-}
+  top: calc(30px + 4 * 60px); }
 
 .start-900 {
-}
+  top: calc(30px + 5 * 60px); }
 
 .start-950 {
-}
+  top: calc(30px + 6 * 60px); }
 
 .start-1000 {
-}
+  top: calc(30px + 7 * 60px); }
 
 .start-1050 {
-}
+  top: calc(30px + 8 * 60px); }
 
 .start-1100 {
-}
+  top: calc(30px + 9 * 60px); }
 
 .start-1150 {
-}
+  top: calc(30px + 10 * 60px); }
 
 .start-1200 {
-}
+  top: calc(30px + 11 * 60px); }
 
 .start-1250 {
-}
+  top: calc(30px + 12 * 60px); }
 
 .start-1300 {
   top: calc(30px + 13 * 60px); }
