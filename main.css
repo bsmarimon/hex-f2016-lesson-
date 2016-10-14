@@ -1,3 +1,13 @@
+/* You can change the height parameter here to modify the calendar height to fit your schedule. */
+/* ========================================= */
+
+.cal-body {
+  position: relative;
+  height: 500px;
+  text-transform: uppercase; }
+
+/* ========================================= */
+
 @font-face {
   font-family: 'Calibre-Regular';
   src: url("fonts/Calibre-Regular.woff"); }
@@ -7,6 +17,247 @@
 @font-face {
   font-family: 'Calibre-Bold';
   src: url("fonts/Calibre-Bold.woff"); }
+
+html {
+  font-family: "Calibre-Regular", sans-serif; }
+
+.container {
+  margin: 100px 150px 100px 150px; }
+
+.semibold {
+  font-family: "Calibre-Semibold", sans-serif; }
+
+.cal-enroll {
+  border-spacing: 0rem; }
+
+.cal-header-row {
+  position: relative;
+  height: 20px;
+  text-align: center; }
+
+.cal-header-row-entry {
+  position: absolute;
+  width: 20%;
+  top: 0px;
+  height: 25px;
+  background-color: #EEEEEE;
+  padding-top: 0.75rem; }
+
+.cal-header-row .cal-header-row-entry:nth-child(1) {
+  left: 0%; }
+.cal-header-row .cal-header-row-entry:nth-child(2) {
+  left: 20%; }
+.cal-header-row .cal-header-row-entry:nth-child(3) {
+  left: 40%; }
+.cal-header-row .cal-header-row-entry:nth-child(4) {
+  left: 60%; }
+.cal-header-row .cal-header-row-entry:nth-child(5) {
+  left: 80%; }
+
+.cal-dotw-column {
+  display: inline-block;
+  height: 100%;
+  width: calc(20% - 1.2px);
+  border-bottom: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE; }
+
+.monday-column {
+  border-left: 1px solid #EEEEEE; }
+
+.lecture-entry {
+  width: calc(18%);
+  position: absolute; }
+
+.other-entry {
+  width: calc(18%);
+  position: absolute; }
+
+.lecture-entry-header {
+  background-color: #4279FF;
+  color: white;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  border-top-right-radius: 0.25rem;
+  border-top-left-radius: 0.25rem; }
+
+.lecture-entry-body {
+  background-color: white;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  border-left: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE; }
+
+.lecture-entry-footer {
+  height: 27px;
+  background-color: #EEEEEE;
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem; }
+
+.other-entry-body {
+  background-color: #4279FF;
+  color: white;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  border-radius: 0.25rem; }
+
+.Mo {
+  left: 1%; }
+
+.Tu {
+  left: 21%; }
+
+.We {
+  left: 41%; }
+
+.Th {
+  left: 61%; }
+
+.Fr {
+  left: 81%; }
+
+.rel-start-650 {
+  top: calc(30px + 0 * 60px); }
+
+.rel-start-700 {
+  top: calc(30px + 1 * 60px); }
+
+.rel-start-750 {
+  top: calc(30px + 2 * 60px); }
+
+.rel-start-800 {
+  top: calc(30px + 3 * 60px); }
+
+.rel-start-850 {
+  top: calc(30px + 4 * 60px); }
+
+.rel-start-900 {
+  top: calc(30px + 5 * 60px); }
+
+.rel-start-950 {
+  top: calc(30px + 6 * 60px); }
+
+.rel-start-1000 {
+  top: calc(30px + 7 * 60px); }
+
+.rel-start-1050 {
+  top: calc(30px + 8 * 60px); }
+
+.rel-start-1100 {
+  top: calc(30px + 9 * 60px); }
+
+.rel-start-1150 {
+  top: calc(30px + 10 * 60px); }
+
+.rel-start-1200 {
+  top: calc(30px + 11 * 60px); }
+
+.rel-start-1250 {
+  top: calc(30px + 12 * 60px); }
+
+.rel-start-1300 {
+  top: calc(30px + 13 * 60px); }
+
+.rel-start-1350 {
+  top: calc(30px + 14 * 60px); }
+
+.rel-start-1400 {
+  top: calc(30px + 15 * 60px); }
+
+.rel-start-1450 {
+  top: calc(30px + 16 * 60px); }
+
+.rel-start-1500 {
+  top: calc(30px + 17 * 60px); }
+
+.rel-start-1550 {
+  top: calc(30px + 18 * 60px); }
+
+.rel-start-1600 {
+  top: calc(30px + 19 * 60px); }
+
+.rel-start-1650 {
+  top: calc(30px + 20 * 60px); }
+
+.rel-start-1700 {
+  top: calc(30px + 21 * 60px); }
+
+.rel-start-1750 {
+  top: calc(30px + 22 * 60px); }
+
+.rel-start-1800 {
+  top: calc(30px + 23 * 60px); }
+
+.rel-start-1850 {
+  top: calc(30px + 24 * 60px); }
+
+.rel-start-1900 {
+  top: calc(30px + 25 * 60px); }
+
+.rel-start-1950 {
+  top: calc(30px + 26 * 60px); }
+
+.rel-start-2000 {
+  top: calc(30px + 27 * 60px); }
+
+.rel-start-2050 {
+  top: calc(30px + 28 * 60px); }
+
+.rel-start-2100 {
+  top: calc(30px + 29 * 60px); }
+
+.rel-start-2150 {
+  top: calc(30px + 50 * 60px); }
+
+.rel-start-2200 {
+  top: calc(30px + 31 * 60px); }
+
+.cal-body .lecture-entry .block-50 {
+  height: calc(1 * 60px - 10px - 0.5rem - 27px * 2); }
+.cal-body .lecture-entry .block-100 {
+  height: calc(2 * 60px - 10px - 0.5rem - 27px * 2); }
+.cal-body .lecture-entry .block-150 {
+  height: calc(3 * 60px - 10px - 0.5rem - 27px * 2); }
+.cal-body .lecture-entry .block-200 {
+  height: calc(4 * 60px - 10px - 0.5rem - 27px * 2); }
+.cal-body .lecture-entry .block-250 {
+  height: calc(5 * 60px - 10px - 0.5rem - 27px * 2); }
+.cal-body .lecture-entry .block-300 {
+  height: calc(6 * 60px - 10px - 0.5rem - 27px * 2); }
+.cal-body .lecture-entry .block-350 {
+  height: calc(7 * 60px - 10px - 0.5rem - 27px * 2); }
+.cal-body .lecture-entry .block-400 {
+  height: calc(8 * 60px - 10px - 0.5rem - 27px * 2); }
+.cal-body .lecture-entry .block-450 {
+  height: calc(9 * 60px - 10px - 0.5rem - 27px * 2); }
+.cal-body .lecture-entry .block-500 {
+  height: calc(10 * 60px - 10px - 0.5rem - 27px * 2); }
+.cal-body .other-entry .block-50 {
+  height: calc(1 * 60px - 10px - 0.5rem); }
+.cal-body .other-entry .block-100 {
+  height: calc(2 * 60px - 10px - 0.5rem); }
+.cal-body .other-entry .block-150 {
+  height: calc(3 * 60px - 10px - 0.5rem); }
+.cal-body .other-entry .block-200 {
+  height: calc(4 * 60px - 10px - 0.5rem); }
+.cal-body .other-entry .block-250 {
+  height: calc(5 * 60px - 10px - 0.5rem); }
+.cal-body .other-entry .block-300 {
+  height: calc(6 * 60px - 10px - 0.5rem); }
+.cal-body .other-entry .block-350 {
+  height: calc(7 * 60px - 10px - 0.5rem); }
+.cal-body .other-entry .block-400 {
+  height: calc(8 * 60px - 10px - 0.5rem); }
+.cal-body .other-entry .block-450 {
+  height: calc(9 * 60px - 10px - 0.5rem); }
+.cal-body .other-entry .block-500 {
+  height: calc(10 * 60px - 10px - 0.5rem); }
+
+
+/*  RESET CSS BELOW ... DO NOT TOUCH  */
+
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -412,274 +663,3 @@ template {
  */
 [hidden] {
   display: none; }
-
-.cal-enroll {
-  border-spacing: 0rem; }
-
-.cal-header-row {
-  position: relative;
-  height: 20px;
-  text-align: center; }
-
-.cal-body {
-  position: relative;
-  height: 500px;
-  text-transform: uppercase; }
-
-.cal-header-row-entry {
-  position: absolute;
-  width: 20%;
-  top: 0px;
-  height: 25px;
-  background-color: #EEEEEE;
-  padding-top: 0.75rem; }
-
-.cal-header-row .cal-header-row-entry:nth-child(1) {
-  left: 0%; }
-.cal-header-row .cal-header-row-entry:nth-child(2) {
-  left: 20%; }
-.cal-header-row .cal-header-row-entry:nth-child(3) {
-  left: 40%; }
-.cal-header-row .cal-header-row-entry:nth-child(4) {
-  left: 60%; }
-.cal-header-row .cal-header-row-entry:nth-child(5) {
-  left: 80%; }
-
-.cal-dotw-column {
-  display: inline-block;
-  height: 100%;
-  width: calc(20% - 1.2px);
-  border-bottom: 1px solid #EEEEEE;
-  border-right: 1px solid #EEEEEE; }
-
-.monday-column {
-  border-left: 1px solid #EEEEEE; }
-
-.lecture-entry {
-  width: calc(18%);
-  position: absolute; }
-
-.other-entry {
-  width: calc(18%);
-  position: absolute; }
-
-.lecture-entry-header {
-  background-color: #4279FF;
-  color: white;
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
-  padding-top: 0.5rem;
-  border-top-right-radius: 0.25rem;
-  border-top-left-radius: 0.25rem; }
-
-.lecture-entry-body {
-  background-color: white;
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
-  padding-top: 0.5rem;
-  border-left: 1px solid #EEEEEE;
-  border-right: 1px solid #EEEEEE; }
-
-.lecture-entry-footer {
-  height: 27px;
-  background-color: #EEEEEE;
-  border-bottom-right-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem; }
-
-.other-entry-body {
-  background-color: #4279FF;
-  color: white;
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
-  padding-top: 0.5rem;
-  border-radius: 0.25rem; }
-
-.Mo {
-  left: 1%; }
-
-.Tu {
-  left: 21%; }
-
-.We {
-  left: 41%; }
-
-.Th {
-  left: 61%; }
-
-.Fr {
-  left: 81%; }
-
-.rel-start-650 {
-  top: calc(30px + 0 * 60px); }
-
-.rel-start-700 {
-  top: calc(30px + 1 * 60px); }
-
-.rel-start-750 {
-  top: calc(30px + 2 * 60px); }
-
-.rel-start-800 {
-  top: calc(30px + 3 * 60px); }
-
-.rel-start-850 {
-  top: calc(30px + 4 * 60px); }
-
-.rel-start-900 {
-  top: calc(30px + 5 * 60px); }
-
-.rel-start-950 {
-  top: calc(30px + 6 * 60px); }
-
-.rel-start-1000 {
-  top: calc(30px + 7 * 60px); }
-
-.rel-start-1050 {
-  top: calc(30px + 8 * 60px); }
-
-.rel-start-1100 {
-  top: calc(30px + 9 * 60px); }
-
-.rel-start-1150 {
-  top: calc(30px + 10 * 60px); }
-
-.rel-start-1200 {
-  top: calc(30px + 11 * 60px); }
-
-.rel-start-1250 {
-  top: calc(30px + 12 * 60px); }
-
-.rel-start-1300 {
-  top: calc(30px + 13 * 60px); }
-
-.rel-start-1350 {
-  top: calc(30px + 14 * 60px); }
-
-.rel-start-1400 {
-  top: calc(30px + 15 * 60px); }
-
-.rel-start-1450 {
-  top: calc(30px + 16 * 60px); }
-
-.rel-start-1500 {
-  top: calc(30px + 17 * 60px); }
-
-.rel-start-1550 {
-  top: calc(30px + 18 * 60px); }
-
-.rel-start-1600 {
-  top: calc(30px + 19 * 60px); }
-
-.rel-start-1650 {
-  top: calc(30px + 20 * 60px); }
-
-.rel-start-1700 {
-  top: calc(30px + 21 * 60px); }
-
-.rel-start-1750 {
-  top: calc(30px + 22 * 60px); }
-
-.rel-start-1800 {
-  top: calc(30px + 23 * 60px); }
-
-.rel-start-1850 {
-  top: calc(30px + 24 * 60px); }
-
-.rel-start-1900 {
-  top: calc(30px + 25 * 60px); }
-
-.rel-start-1950 {
-  top: calc(30px + 26 * 60px); }
-
-.rel-start-2000 {
-  top: calc(30px + 27 * 60px); }
-
-.rel-start-2050 {
-  top: calc(30px + 28 * 60px); }
-
-.rel-start-2100 {
-  top: calc(30px + 29 * 60px); }
-
-.rel-start-2150 {
-  top: calc(30px + 50 * 60px); }
-
-.rel-start-2200 {
-  top: calc(30px + 31 * 60px); }
-
-.cal-body .lecture-entry .block-50 {
-  height: calc(1 * 60px - 10px - 0.5rem - 27px * 2); }
-.cal-body .lecture-entry .block-100 {
-  height: calc(2 * 60px - 10px - 0.5rem - 27px * 2); }
-.cal-body .lecture-entry .block-150 {
-  height: calc(3 * 60px - 10px - 0.5rem - 27px * 2); }
-.cal-body .lecture-entry .block-200 {
-  height: calc(4 * 60px - 10px - 0.5rem - 27px * 2); }
-.cal-body .lecture-entry .block-250 {
-  height: calc(5 * 60px - 10px - 0.5rem - 27px * 2); }
-.cal-body .lecture-entry .block-300 {
-  height: calc(6 * 60px - 10px - 0.5rem - 27px * 2); }
-.cal-body .lecture-entry .block-350 {
-  height: calc(7 * 60px - 10px - 0.5rem - 27px * 2); }
-.cal-body .lecture-entry .block-400 {
-  height: calc(8 * 60px - 10px - 0.5rem - 27px * 2); }
-.cal-body .lecture-entry .block-450 {
-  height: calc(9 * 60px - 10px - 0.5rem - 27px * 2); }
-.cal-body .lecture-entry .block-500 {
-  height: calc(10 * 60px - 10px - 0.5rem - 27px * 2); }
-.cal-body .other-entry .block-50 {
-  height: calc(1 * 60px - 10px - 0.5rem); }
-.cal-body .other-entry .block-100 {
-  height: calc(2 * 60px - 10px - 0.5rem); }
-.cal-body .other-entry .block-150 {
-  height: calc(3 * 60px - 10px - 0.5rem); }
-.cal-body .other-entry .block-200 {
-  height: calc(4 * 60px - 10px - 0.5rem); }
-.cal-body .other-entry .block-250 {
-  height: calc(5 * 60px - 10px - 0.5rem); }
-.cal-body .other-entry .block-300 {
-  height: calc(6 * 60px - 10px - 0.5rem); }
-.cal-body .other-entry .block-350 {
-  height: calc(7 * 60px - 10px - 0.5rem); }
-.cal-body .other-entry .block-400 {
-  height: calc(8 * 60px - 10px - 0.5rem); }
-.cal-body .other-entry .block-450 {
-  height: calc(9 * 60px - 10px - 0.5rem); }
-.cal-body .other-entry .block-500 {
-  height: calc(10 * 60px - 10px - 0.5rem); }
-
-html {
-  font-family: "Calibre-Regular", sans-serif; }
-
-.container {
-  margin: 100px 150px 100px 150px; }
-
-.outline-blue {
-  border: 2px solid #4279FF !important;
-  border-radius: 0.25rem; }
-
-.color-blue {
-  color: #4279FF; }
-
-.color-red {
-  color: #FF8080; }
-
-.semibold {
-  font-family: "Calibre-Semibold", sans-serif; }
-
-.clearfix {
-  overflow: auto; }
-
-.headerfix {
-  overflow: visible; }
-
-.rm-margin-bottom {
-  margin-bottom: 0px !important; }
-
-.absolute-center-wrapper {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-/*# sourceMappingURL=main.css.map */
