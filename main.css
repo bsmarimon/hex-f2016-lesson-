@@ -1,12 +1,11 @@
-/* You can change the height parameter here to modify the calendar height to fit your schedule. */
-/* ========================================= */
+/*
+You can change the height parameter here to modify the calendar height to fit your schedule.
+*/
 
 .cal-body {
   position: relative;
   height: 500px;
   text-transform: uppercase; }
-
-/* ========================================= */
 
 html {
   font-family: "Lato", sans-serif;
@@ -28,24 +27,14 @@ html {
   text-align: center; }
 
 .cal-header-row-entry {
+  display: _TODO_;
   position: _TODO_;
-  width: _TODO_;
+  width: calc(20% - 0.25px);
   top: 0px;
   height: 25px;
   background-color: #EEEEEE;
   padding-top: 0.5rem;
   padding-bottom: 0.25rem; }
-
-.cal-header-row .cal-header-row-entry:nth-child(1) {
-  left: _TODO_; }
-.cal-header-row .cal-header-row-entry:nth-child(2) {
-  left: _TODO_; }
-.cal-header-row .cal-header-row-entry:nth-child(3) {
-  left: _TODO_; }
-.cal-header-row .cal-header-row-entry:nth-child(4) {
-  left: _TODO_; }
-.cal-header-row .cal-header-row-entry:nth-child(5) {
-  left: _TODO_; }
 
 .cal-dotw-column {
   display: _TODO_;
@@ -82,6 +71,10 @@ html {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem; }
 
+/*
+Used to position entries on the right day of the week.
+*/
+
 .Mo {
   left: 1%; }
 
@@ -96,6 +89,18 @@ html {
 
 .Fr {
   left: 81%; }
+
+/*
+The calculations below are a little complicated
+We use 60px as the base height of an calendar entry
+      60px = half an hour
+
+The .start-VALUE classes are used to adjust an entry down from the top of the calendar.
+The 30px offset is to account for the header row.
+
+The .block-VALUE classes are used to adjust the length of an entry to take up the right amount of hours.
+We subtract the header and footer for an entry (that's the 27px), and give 10px of space between entries.
+*/
 
 .start-650 {
   top: calc(30px + 0 * 60px); }

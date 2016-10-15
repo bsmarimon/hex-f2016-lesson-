@@ -28,24 +28,14 @@ html {
   text-align: center; }
 
 .cal-header-row-entry {
-  position: absolute;
-  width: 20%;
+  display: inline-block;
+  position: relative;
+  width: calc(20% - 0.25px);
   top: 0px;
   height: 25px;
   background-color: #EEEEEE;
   padding-top: 0.5rem;
   padding-bottom: 0.25rem; }
-
-.cal-header-row .cal-header-row-entry:nth-child(1) {
-  left: 0%; }
-.cal-header-row .cal-header-row-entry:nth-child(2) {
-  left: 20%; }
-.cal-header-row .cal-header-row-entry:nth-child(3) {
-  left: 40%; }
-.cal-header-row .cal-header-row-entry:nth-child(4) {
-  left: 60%; }
-.cal-header-row .cal-header-row-entry:nth-child(5) {
-  left: 80%; }
 
 .cal-dotw-column {
   display: inline-block;
