@@ -48,7 +48,7 @@ html {
   left: _TODO_; }
 
 .cal-dotw-column {
-  display: inline-block;
+  display: _TODO_;
   height: 100%;
   width: calc(20% - _TODO_);
   border-bottom: 1px solid #EEEEEE;
@@ -110,43 +110,43 @@ html {
   left: 81%; }
 
 .start-650 {
-}
+  top: calc(30px + 0 * 60px); }
 
 .start-700 {
-}
+  top: calc(30px + 1 * 60px); }
 
 .start-750 {
-}
+  top: calc(30px + 2 * 60px); }
 
 .start-800 {
-}
+  top: calc(30px + 3 * 60px); }
 
 .start-850 {
-}
+  top: calc(30px + 4 * 60px); }
 
 .start-900 {
-}
+  top: calc(30px + 5 * 60px); }
 
 .start-950 {
-}
+  top: calc(30px + 6 * 60px); }
 
 .start-1000 {
-}
+  top: calc(30px + 7 * 60px); }
 
 .start-1050 {
-}
+  top: calc(30px + 8 * 60px); }
 
 .start-1100 {
-}
+  top: calc(30px + 9 * 60px); }
 
 .start-1150 {
-}
+  top: calc(30px + 10 * 60px); }
 
 .start-1200 {
-}
+  top: calc(30px + 11 * 60px); }
 
 .start-1250 {
-}
+  top: calc(30px + 12 * 60px); }
 
 .start-1300 {
   top: calc(30px + 13 * 60px); }
@@ -205,43 +205,23 @@ html {
 .start-2200 {
   top: calc(30px + 31 * 60px); }
 
-.cal-body .lecture-entry .block-50 {
+.block-50 {
   height: calc(1 * 60px - 10px - 0.5rem - 27px * 2); }
-.cal-body .lecture-entry .block-100 {
+.block-100 {
   height: calc(2 * 60px - 10px - 0.5rem - 27px * 2); }
-.cal-body .lecture-entry .block-150 {
+.block-150 {
   height: calc(3 * 60px - 10px - 0.5rem - 27px * 2); }
-.cal-body .lecture-entry .block-200 {
+.block-200 {
   height: calc(4 * 60px - 10px - 0.5rem - 27px * 2); }
-.cal-body .lecture-entry .block-250 {
+.block-250 {
   height: calc(5 * 60px - 10px - 0.5rem - 27px * 2); }
-.cal-body .lecture-entry .block-300 {
+.block-300 {
   height: calc(6 * 60px - 10px - 0.5rem - 27px * 2); }
-.cal-body .lecture-entry .block-350 {
+.block-350 {
   height: calc(7 * 60px - 10px - 0.5rem - 27px * 2); }
-.cal-body .lecture-entry .block-400 {
+.block-400 {
   height: calc(8 * 60px - 10px - 0.5rem - 27px * 2); }
-.cal-body .lecture-entry .block-450 {
+.block-450 {
   height: calc(9 * 60px - 10px - 0.5rem - 27px * 2); }
-.cal-body .lecture-entry .block-500 {
+.block-500 {
   height: calc(10 * 60px - 10px - 0.5rem - 27px * 2); }
-.cal-body .other-entry .block-50 {
-  height: calc(1 * 60px - 10px - 0.5rem); }
-.cal-body .other-entry .block-100 {
-  height: calc(2 * 60px - 10px - 0.5rem); }
-.cal-body .other-entry .block-150 {
-  height: calc(3 * 60px - 10px - 0.5rem); }
-.cal-body .other-entry .block-200 {
-  height: calc(4 * 60px - 10px - 0.5rem); }
-.cal-body .other-entry .block-250 {
-  height: calc(5 * 60px - 10px - 0.5rem); }
-.cal-body .other-entry .block-300 {
-  height: calc(6 * 60px - 10px - 0.5rem); }
-.cal-body .other-entry .block-350 {
-  height: calc(7 * 60px - 10px - 0.5rem); }
-.cal-body .other-entry .block-400 {
-  height: calc(8 * 60px - 10px - 0.5rem); }
-.cal-body .other-entry .block-450 {
-  height: calc(9 * 60px - 10px - 0.5rem); }
-.cal-body .other-entry .block-500 {
-  height: calc(10 * 60px - 10px - 0.5rem); }
