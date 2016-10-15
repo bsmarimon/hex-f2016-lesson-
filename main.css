@@ -61,10 +61,6 @@ html {
   width: calc(18%);
   position: absolute; }
 
-.other-entry {
-  width: calc(18%);
-  position: absolute; }
-
 .lecture-entry-header {
   background-color: #4279FF;
   color: white;
@@ -85,14 +81,6 @@ html {
   background-color: #EEEEEE;
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem; }
-
-.other-entry-body {
-  background-color: #4279FF;
-  color: white;
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
-  padding-top: 0.5rem;
-  border-radius: 0.25rem; }
 
 .Mo {
   left: 1%; }
